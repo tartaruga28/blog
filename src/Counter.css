@@ -1,0 +1,13 @@
+.Counter button {
+    background-color: rgb(228, 171, 233);
+    width: 2rem;
+    height: 1.8rem;
+    border-radius: 0.8rem;
+    border-color: rgb(251, 251, 251);
+    color: rgb(251, 251, 251);
+    font-size: large;
+  }
+  
+  .Counter span {
+    padding: 0 1rem;
+  }

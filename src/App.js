@@ -1,3 +1,4 @@
+import Counter from './Counter';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <Counter />
+        <Counter defaultNumero={1} increment={3} />
+        <Counter defaultNumero={2} increment={2} />
       </header>
     </div>
   );
